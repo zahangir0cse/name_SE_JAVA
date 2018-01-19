@@ -13,19 +13,19 @@ public class Product {
 	private int productId;
 	private String productName;
 	private String productPrice;
-	private String productDescription;
-	private String productImageUrl;
+	private String productType;
+	private double profitPercentage;
 	
-	public Product(int productId, String productName, String productPrice, String productDescription,
-			String productImageUrl) {
+	public Product(int productId, String productName, String productPrice, String productType,
+			double profitPercentage) {
 		super();
 		this.productId = productId;
 		this.productName = productName;
 		this.productPrice = productPrice;
-		this.productDescription = productDescription;
-		this.productImageUrl = productImageUrl;
+		this.productType = productType;
+		this.profitPercentage = profitPercentage;
 	}
-	
+
 	public Product() {
 		
 	}
@@ -54,24 +54,20 @@ public class Product {
 		this.productPrice = productPrice;
 	}
 
-	public String getProductDescription() {
-		return productDescription;
+	public String getProductType() {
+		return productType;
 	}
 
-	public void setProductDescription(String productDescription) {
-		this.productDescription = productDescription;
+	public void setProductType(String productType) {
+		this.productType = productType;
 	}
 
-	public String getProductImageUrl() {
-		return productImageUrl;
+	public double getProfitPercentage() {
+		return profitPercentage;
 	}
 
-	public void setProductImageUrl(String productImageUrl) {
-		this.productImageUrl = productImageUrl;
+	public void setProfitPercentage(double profitPercentage) {
+		this.profitPercentage = profitPercentage;
 	}
-	
-	
-	
-	
 
 }
