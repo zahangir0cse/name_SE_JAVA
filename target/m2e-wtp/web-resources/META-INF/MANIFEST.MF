@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: springcrud
+Implementation-Version: 1.5.6.RELEASE
+Built-By: Zahangir Alam
+Implementation-Vendor-Id: com.zahangir
+Build-Jdk: 1.8.0_151
+Implementation-URL: http://projects.spring.io/spring-boot/springcrud/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
