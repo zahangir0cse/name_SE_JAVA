@@ -9,4 +9,9 @@ public class ProductController {
     public String hello(){
         return "index";
     }
+
+    @GetMapping("/hello")
+    public String helloUser(){
+        return "user";
+    }
 }
